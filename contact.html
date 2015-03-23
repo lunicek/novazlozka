@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Ďeň otvorených dverí</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h2>Ďeň otvorených dverí na UKF v Nitre</h2></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">Organizačné pokyny</a></li>
+          <li><a href="about.html">Univerzita</a></li>
+          <li><a href="portfolio.html">Súčasti univerzity</a></li>
+          
+          <li class="current"><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div id="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/1.jpg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/2.jpg" alt="photo_two" /></li>
+            <li><img width="450" height="450" src="images/3.jpg" alt="photo_three" /></li>
+            <li><img width="450" height="450" src="images/4.jpg" alt="photo_four" /></li>
+            <li><img width="450" height="450" src="images/5.jpg" alt="photo_five" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Kontaktné informácie</h1>
+        <p>Univerzita Konštantína Filozofa v Nitre</p>
+<p>Tr. A. Hlinku 1, 949 74, Nitra</p>
+
+<p>tel: +421 37 6408 111</p>
+<p>fax: +421 37 6408 020</p>
+<p>e-mail:<a href="ukf@ukf.sk"</a>ukf@ukf.sk </a></p>
+<p>IČO: 00157716</p>
+<p>DIČ: 2021246590</p>
+<p>IČ DPH: SK 2021246590</p>
+        <form id="contact" action="contact.html" method="post">
+          <div class="form_settings">
+            <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
+            <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
+            <p><span>Message</span><textarea class="contact textarea" rows="5" cols="50" name="your_message"></textarea></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="send" /></p>
+          </div>
+        </form>
+        
+      </div>
+    </div>
+    <footer>
+      <p><a href="https://www.ukf.sk/o-univerzite/kontakt/adresar-zamestnancov">Adresár zamestnancov | <a href="https://www.ukf.sk/veda-a-vyskum">Veda a výskum na univerzite</a> | <a href="https://www.ukf.sk/verejnost-a-media">Verejnosť a média</a> 
+    
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
